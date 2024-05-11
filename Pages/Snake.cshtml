@@ -1,0 +1,32 @@
+﻿@page
+@model WebArcade.Pages.SnakeModel
+@{
+    ViewData["Title"] = "Web Arcade - SNAKE";
+}
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="~/css/Snake.css">
+
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="score">score: <span class="score--value">00</span></div>
+    <div> Use as setas direcionais "←↑→↓" para controlar o jogo </div>
+
+    <div class="menu-screen">
+        <span class="game-over">game over <a href="https://learn.microsoft.com/aspnet/core">registre aqui sua pontuação </span>
+        <span class="final-score">score <span>00</span></span>
+
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                play_circle
+            </span>
+
+            Jogar novamente
+        </button>
+    </div>
+
+    <canvas width="600" height="600"></canvas>
+    <script src="~/js/Snake.js"></script>
+</body>

@@ -1,0 +1,31 @@
+﻿@page
+@model WebArcade.Pages.FlapyModel
+@{
+    ViewData["Title"] = "Web Arcade - FLAPY-BIRD";
+}
+
+<head>
+    <meta name="description" content="A remake of the mobile game Flappy Bird">
+    <link rel="stylesheet" href="~/css/Flapy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" />
+</head>
+
+<body>
+    <main>
+        <div class="background"></div>
+        <img src="https://github.com/MarlonJames99/Flappy_Bird/blob/main/img/Bird.png?raw=true" alt="bird-img" class="bird" id="bird-1">
+        <div class="message">
+            <img src="https://github.com/MarlonJames99/Flappy_Bird/blob/main/img/game-logo.png?raw=true" alt="Flappy Bird game logo"><br>
+            Aperte ENTER para começar!
+            <p><span style="color: red;">&uarr;</span> Use ↑ para controlar</p>
+            <a href="https://learn.microsoft.com/aspnet/core">registre aqui sua pontuação </a>
+        </div>
+        <div class="score">
+            <span class="score-title"></span>
+            <span class="score-value"></span>
+        </div>
+    </main>
+    <script src="~/js/Flapy.js" defer></script>
+</body>

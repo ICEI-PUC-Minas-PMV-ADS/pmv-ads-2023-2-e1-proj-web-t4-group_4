@@ -1,0 +1,208 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Web Arcade";
+}
+
+<body>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Bem Vindo ao Web Arcade</h3>
+            <p>
+                Bem-vindo ao Web Arcade, o seu portal para jogos acessíveis e rápidos!
+
+                Sem tempo para jogos que exigem horas de dedicação e habilidades complexas? Aqui no WA, você encontra jogos divertidos e desafiadores que podem ser jogados em qualquer lugar, a qualquer hora.
+
+                Nossa missão é tornar os jogos acessíveis a todos, independentemente da idade, habilidade ou experiência.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Fim Banner -->
+    <!-- Sobre -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>Conheça </span> o Web Arcade </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="~/imagens/img1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>A Falta de Tempo para Jogos Demorados: Um Dilema da Era Moderna</h3>
+                <p>
+                    Na era da informação, onde o tempo se tornou um recurso cada vez mais precioso, a falta de tempo para jogos demorados se tornou um problema cada vez mais comum.
+                </p>
+                <p>Com a rotina agitada do dia a dia, dividida entre trabalho, estudos, responsabilidades familiares e sociais, encontrar horas para dedicar a jogos longos e complexos pode ser um desafio.</p>
+
+                <a href="#" class="btn">ler mais</a>
+            </div>
+
+        </div>
+
+        <!--  Fim Sobre -->
+        <!-- Games  -->
+
+    </section>
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Games  </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://assetsio.gnwcdn.com/ar14k9.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Mario Bros</a>
+
+                    <p>Super Mario Bros." é um icônico jogo de plataforma lançado pela Nintendo em 1985. Os jogadores controlam Mario, um encanador italiano, enquanto ele atravessa diversos níveis para resgatar a Princesa Peach das garras do vilão Bowser.</p>
+                    <a asp-page="Mario" class="btn">play</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://pbs.twimg.com/media/F81OsbdWgAEj2SA?format=jpg&name=4096x4096" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Sonic</a>
+
+                    <p>"Sonic the Hedgehog" é um jogo de plataforma lançado pela Sega em 1991. Os jogadores assumem o papel de Sonic, um ouriço azul super rápido, que deve salvar o mundo do vilão Dr. Robotnik, que quer dominá-lo.O jogo é conhecido por sua velocidade.</p>
+                    <a asp-page="Sonic" class="btn">play</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://laboratoryroomnineteen.files.wordpress.com/2018/07/snakerattle.jpg?w=994" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Snake</a>
+
+                    <p>"Snake" é um clássico jogo de arcade criado na década de 1970. Nele, os jogadores controlam uma cobra que se move pela tela, coletando alimentos para crescer e ganhar pontos. O desafio é evitar colidir com as paredes do cenário ou com o próprio corpo da cobra. </p>
+                    <a asp-page="Snake" class="btn">play</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://jpc-spaces-1.fra1.cdn.digitaloceanspaces.com/sore-thumb/pac-man-neo-geo-pocket-color-front-cover.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Pacman</a>
+
+                    <p>"Pac-Man" é um clássico jogo de arcade lançado pela Namco em 1980. Os jogadores controlam o personagem amarelo, Pac-Man, em um labirinto repleto de pontos e fantasmas. O objetivo é comer todos os pontos enquanto evita ser capturado pelos fantasmas. </p>
+                    <a asp-page="Pacman" class="btn">play</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://art.ngfiles.com/images/5552000/5552417_605696_sgkev1_flappy-bird-rubberhose-style.1729d3238c32f235d082a23881c06613.jpg?f1711138851" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">flappy bird</a>
+
+                    <p>
+                        Flappy Bird' é um jogo simples e cativante, que se tornou um fenômeno cultural em sua própria medida. Desenvolvido pelo programador vietnamita Dong Nguyen, este jogo coloca os jogadores no controle de um pequeno pássaro.
+                    </p>
+                    <a asp-page="Flapy" class="btn">play</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Sobre -->
+
+    <section class="about" id="aboutt">
+
+        <h1 class="heading"> <span>Web</span>Community</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://www.vijesti.me/data/images/2024/01/12/09/5541981_shutterstock-2206924921_ls.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Seja um player competitivo e se destaque com sua pontuação!</h3>
+                <p>
+                    Aqui no web arcade apos jogar um jogo você recebera uma pontuação que pode ser registrada no rank geral,aonde você podera competir com outros players.
+                </p>
+                <p>Acesse o botão a baixo e clique em acesso,Id:"18" Senha:"rankacess",la você registra sua pontuação e compete com os melhores. </p>
+                <p>Clique no icone informativo para ser direcionado para a WebCommunity,e registre sua pontuação ou compartilhe com a comunidade mais jogos.</p>
+                <a href="#" class="btn">Rank</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Fim Games  -->
+    <!-- Equipe  -->
+
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Equipe de <span>desenvolvimento</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <p>A equipe de front-end é responsável pelo desenvolvimento da parte visual e interativa de um site ou aplicativo. Isso inclui a criação da interface do usuário, experiência do usuário, e a implementação de elementos de design e interatividade usando linguagens como HTML, CSS e JavaScript.</p>
+                <img src="https://areadev.com.br/wp-content/uploads/2023/06/Copia-de-Apresentacao-de-Negocios-Projeto-Modulos-Abstratos-Preto-Violeta2.png" class="user" alt="">
+                <h3>Front end</h3>
+
+            </div>
+
+            <div class="box">
+
+                <p>Uma equipe de back-end de C# se especializa no desenvolvimento da lógica e funcionalidade dos aplicativos utilizando a linguagem de programação C#. Eles trabalham principalmente com tecnologias Microsoft, como o framework .NET, para criar sistemas robustos e escaláveis. Esta equipe é responsável por lidar com o processamento de dados</p>
+                <img src="https://www.stickersdevs.com.br/wp-content/uploads/2022/01/c-sharp-adesivo-sticker.png" class="user" alt="">
+                <h3>Back end</h3>
+
+            </div>
+
+            <div class="box">
+
+                <p>LUma equipe de banco de dados SQL é especializada na gestão e otimização de bancos de dados relacionais usando a linguagem SQL (Structured Query Language). Esta equipe é responsável por projetar, implementar e manter bancos de dados eficientes e seguros para armazenar e recuperar dados. </p>
+                <img src="https://dhg1h5j42swfq.cloudfront.net/2023/05/09172211/database-g87972c042_1280-1024x1024.png" class="user" alt="">
+                <h3>Banco de dados</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Fim Equipe  -->
+    <!--  Rodape  -->
+
+
+    <section class="footer">
+
+        <div class="credit">created by <span>Grupo2 turma7</span> | all rights reserved</div>
+
+    </section>
+
+    <!--  Fim rodape  -->
+    <!-- link JS  -->
+    <script src="script.js"></script>
+
+</body>
